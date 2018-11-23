@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#Depenses {
+    position: absolute;
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+}
+
+#LC {
+    float: right;
+    position: relative;
+    right: 25px;
+}
+
+#RC {
+    position: relative;
+    left: 40px;
+}
+
+#Eu {
+    float: right;
+    position: relative;
+    right: 25px;
+}
+
+#Elec {
+    position: relative;
+    left:  145px;
+}
+
+#Gz {
+    float: right;
+    position: relative;
+    right: 25px;
+}
+
+#TI {
+    position: relative;
+    left:  80px;
+}
+
+#Habitat {
+    float: right;
+    position: relative;
+    right: 25px;
+}
+
+#Auto {
+    position: relative;
+    left:  70px;
+}
+
+#Snt {
+    float: right;
+    position: relative;
+    right: 25px;
+}
+
+#FG {
+    position: relative;
+    left:  115px;
+}
+
+#IR {
+    float: right;
+    position: relative;
+    right: 25px;
+}
+
+#IL {
+    position: relative;
+    left:  120px;
+}
+
+#Cs {
+    float: right;
+    position: relative;
+    right: 25px;
+}
+
+#EF {
+    position: relative;
+    left:  155px;
+}
+
+#ASC {
+    float: right;
+    position: relative;
+    right: 25px;
+}
+
+#TC {
+    position: relative;
+    left: 60px;
+}
+
+#S {
+    position: relative;
+    left: 40%;
+}
+
+#ValiderD {
+    text-align: center;
+    position: relative;
+    left: 50%;
+}
