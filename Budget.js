@@ -84,7 +84,8 @@ document.getElementById("Valider").addEventListener("click",
         if (Totaux > 0) {
 
             document.getElementById("Budget").innerHTML = "Vous avez un budget positif";
-
+            document.getElementById("BudgetPositif").innerHTML = "Vous pouvez acheter des cadeaux, faire plaisir à vos " +
+                "proches";
         }
 
         if (Totaux == 0) {
@@ -111,19 +112,36 @@ document.getElementById("Reset").addEventListener("click",
 
     function () {
 
-        Loyer.value = "0"; Credit.value = "0"; Eau.value = "0";
-        Electricite.value = "0"; Gaz.value = "0"; Internet.value = "0";
-        Habitation.value = "0"; Auto.value = "0"; Sante.value = "0";
-        Garde.value = "0"; IRevenu.value = "0"; ILocaux.value = "0";
-        Courses.value = "0"; Essences.value = "0"; Activite.value = "0";
-        Aide.value = "0"; Transport.value = "0"; Sortie.value = "0";
-        Epargne.value = "0"; Rentes.value = "0"; Salaire.value = "0";
-        AjoutDNom.value = ""; AjoutRNom.value = "";
-        AjoutRNombre.value = "0"; AjoutDNombre.value = "0";
+        Loyer.value = "0";
+        Credit.value = "0";
+        Eau.value = "0";
+        Electricite.value = "0";
+        Gaz.value = "0";
+        Internet.value = "0";
+        Habitation.value = "0";
+        Auto.value = "0";
+        Sante.value = "0";
+        Garde.value = "0";
+        IRevenu.value = "0";
+        ILocaux.value = "0";
+        Courses.value = "0";
+        Essences.value = "0";
+        Activite.value = "0";
+        Aide.value = "0";
+        Transport.value = "0";
+        Sortie.value = "0";
+        Epargne.value = "0";
+        Rentes.value = "0";
+        Salaire.value = "0";
+        AjoutDNom.value = "";
+        AjoutRNom.value = "";
+        AjoutRNombre.value = "0";
+        AjoutDNombre.value = "0";
 
         document.getElementById("Somme").innerHTML = "00.00";
         document.getElementById("Budget").innerHTML = "Vous avez un budget : ";
         document.getElementById("R").innerHTML = "";
         document.getElementById("D").innerHTML = "";
+        document.getElementById("BudgetPositif").innerHTML = "";
 
     });
