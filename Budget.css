@@ -205,5 +205,11 @@ h1 {
 
 #R {
     position: relative;
-    left: 15%;
+    left: 50%;
+}
+
+#EP {
+    position: relative;
+    top: 50px;
+    left: 30%;
 }
