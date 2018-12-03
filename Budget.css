@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-image: url("Fond.jpg");
+    background-size: 100%;
 }
 
 body, html {
@@ -205,11 +206,5 @@ h1 {
 
 #R {
     position: relative;
-    left: 50%;
-}
-
-#EP {
-    position: relative;
-    top: 50px;
-    left: 30%;
+    left: 15%;
 }

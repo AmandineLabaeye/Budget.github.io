@@ -60,7 +60,6 @@ document.getElementById("Valider").addEventListener("click",
         // Variable qui va arrondir la variable "Depenses" a deux chiffres après la virgule
         let TotalDepenses = Math.round(Depenses * 100) / 100;
 
-
         //Variable qui va recuperer la valeur de Epargne
         let Eparg = Number(Epargne.value);
 
@@ -78,26 +77,20 @@ document.getElementById("Valider").addEventListener("click",
 
         // Variable qui va arrondir la variable "Total" a deux chiffres après la virgule
         let Totaux = Math.round(Total * 100) / 100;
-
         document.getElementById("Somme").innerHTML = Totaux;
 
         if (Totaux > 0) {
-
             document.getElementById("Budget").innerHTML = "Vous avez un budget positif";
             document.getElementById("BudgetPositif").innerHTML = "Vous pouvez acheter des cadeaux, faire plaisir à vos " +
                 "proches";
         }
 
         if (Totaux == 0) {
-
             document.getElementById("Budget").innerHTML = "Vous avez un budget nul";
-
         }
 
         if (Totaux < 0) {
-
             document.getElementById("Budget").innerHTML = "Vous avez un budget négatif";
-
         }
 
         // Permet de verifier la valeur des 3 variables numériques
@@ -105,7 +98,6 @@ document.getElementById("Valider").addEventListener("click",
         console.log(TotalEpargne);
         console.log(TotalDepenses);
         console.log(Totaux);
-
     });
 
 document.getElementById("Reset").addEventListener("click",
@@ -137,11 +129,9 @@ document.getElementById("Reset").addEventListener("click",
         AjoutRNom.value = "";
         AjoutRNombre.value = "0";
         AjoutDNombre.value = "0";
-
         document.getElementById("Somme").innerHTML = "00.00";
         document.getElementById("Budget").innerHTML = "Vous avez un budget : ";
         document.getElementById("R").innerHTML = "";
         document.getElementById("D").innerHTML = "";
         document.getElementById("BudgetPositif").innerHTML = "";
-
     });
